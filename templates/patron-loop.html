@@ -1,0 +1,18 @@
+<!doctype html>
+<html dir="ltr" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rapport</title>
+  </head>
+  <body>
+  <table>  
+  <tr><td><h2>Nom</h2></td><td><h2>Genre</h2></td></tr>
+
+{%for i in range(0,len)%}
+  <tr><td>{{nom[i]}}</td><td><i>{{genre[i]}}</i></td></tr>
+{%endfor%}
+
+  </table>
+  <br>
+  <a href="https://en.wikipedia.org/wiki/List_of_popular_music_genres">Plus d'informations sur les genres</a>
+  </body>
